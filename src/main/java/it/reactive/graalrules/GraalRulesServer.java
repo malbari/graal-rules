@@ -1,12 +1,12 @@
-package com.bezkoder.spring.jpa.h2;
+package it.reactive.graalrules;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootJpaH2Application {
+public class GraalRulesServer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootJpaH2Application.class, args);
+		SpringApplication.run(GraalRulesServer.class, args);
 	}
 }
